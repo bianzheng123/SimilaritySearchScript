@@ -1,0 +1,107 @@
+[
+  {
+    "recall": 0.93344,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 50,
+    "search_time_per_query": 0.04144232273101806
+  },
+  {
+    "recall": 0.9781599999999999,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 100,
+    "search_time_per_query": 0.05506439208984375
+  },
+  {
+    "recall": 0.98948,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 150,
+    "search_time_per_query": 0.08486135005950927
+  },
+  {
+    "recall": 0.99405,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 200,
+    "search_time_per_query": 0.1117469072341919
+  },
+  {
+    "recall": 0.9963200000000001,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 250,
+    "search_time_per_query": 0.14754183292388914
+  },
+  {
+    "recall": 0.99748,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 300,
+    "search_time_per_query": 0.17436404228210448
+  },
+  {
+    "recall": 0.9982599999999999,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 350,
+    "search_time_per_query": 0.20784325599670408
+  },
+  {
+    "recall": 0.99868,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 400,
+    "search_time_per_query": 0.2503606081008911
+  },
+  {
+    "recall": 0.999,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 450,
+    "search_time_per_query": 0.26780238151550295
+  },
+  {
+    "recall": 0.9990500000000001,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 500,
+    "search_time_per_query": 0.31402225494384767
+  },
+  {
+    "recall": 0.9992300000000001,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 550,
+    "search_time_per_query": 0.3293807983398438
+  },
+  {
+    "recall": 0.9993399999999999,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 600,
+    "search_time_per_query": 0.4109464645385742
+  },
+  {
+    "recall": 0.99943,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 650,
+    "search_time_per_query": 0.4143260955810547
+  },
+  {
+    "recall": 0.99956,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 700,
+    "search_time_per_query": 0.4253224372863769
+  },
+  {
+    "recall": 0.99956,
+    "M": 16,
+    "efConstruction": 80,
+    "efSearch": 750,
+    "search_time_per_query": 0.5050695896148681
+  }
+]

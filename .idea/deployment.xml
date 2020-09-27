@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="dbgroup" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" serverName="dbgroup" autoUploadExternalChanges="true" showNewOnSourceInSync="false">
     <serverData>
       <paths name="dbgroup">
         <serverdata>
           <mappings>
-            <mapping deploy="/faiss" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/self_code" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

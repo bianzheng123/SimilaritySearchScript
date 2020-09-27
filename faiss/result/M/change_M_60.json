@@ -1,0 +1,100 @@
+[
+  {
+    "recall": 0.9893700000000001,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 50,
+    "search_time_per_query": 0.10570785999298096
+  },
+  {
+    "recall": 0.99778,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 100,
+    "search_time_per_query": 0.08897435665130615
+  },
+  {
+    "recall": 0.99929,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 150,
+    "search_time_per_query": 0.15517957210540773
+  },
+  {
+    "recall": 0.9996600000000001,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 200,
+    "search_time_per_query": 0.18244531154632568
+  },
+  {
+    "recall": 0.99983,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 250,
+    "search_time_per_query": 0.21451520919799805
+  },
+  {
+    "recall": 0.99983,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 300,
+    "search_time_per_query": 0.22984185218811035
+  },
+  {
+    "recall": 0.9998900000000001,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 350,
+    "search_time_per_query": 0.2790347099304199
+  },
+  {
+    "recall": 0.9999,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 400,
+    "search_time_per_query": 0.31170742511749266
+  },
+  {
+    "recall": 0.9999399999999999,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 450,
+    "search_time_per_query": 0.310218071937561
+  },
+  {
+    "recall": 0.99993,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 500,
+    "search_time_per_query": 0.3673910617828369
+  },
+  {
+    "recall": 0.9999399999999999,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 550,
+    "search_time_per_query": 0.39403772354125977
+  },
+  {
+    "recall": 0.9999399999999999,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 600,
+    "search_time_per_query": 0.43024232387542727
+  },
+  {
+    "recall": 0.9999399999999999,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 650,
+    "search_time_per_query": 0.41654558181762696
+  },
+  {
+    "recall": 0.9999499999999999,
+    "M": 60,
+    "efConstruction": 100,
+    "efSearch": 700,
+    "search_time_per_query": 0.518121600151062
+  }
+]

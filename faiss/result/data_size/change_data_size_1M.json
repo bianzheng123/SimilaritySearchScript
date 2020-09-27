@@ -1,0 +1,135 @@
+[
+  {
+    "recall": 0.9639200000000001,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 50,
+    "search_time_per_query": 0.026117181777954104
+  },
+  {
+    "recall": 0.9906900000000001,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 100,
+    "search_time_per_query": 0.056328773498535156
+  },
+  {
+    "recall": 0.9961,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 150,
+    "search_time_per_query": 0.08118734359741211
+  },
+  {
+    "recall": 0.99792,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 200,
+    "search_time_per_query": 0.10422799587249756
+  },
+  {
+    "recall": 0.99861,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 250,
+    "search_time_per_query": 0.12383372783660888
+  },
+  {
+    "recall": 0.99903,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 300,
+    "search_time_per_query": 0.15895614624023438
+  },
+  {
+    "recall": 0.9993299999999999,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 350,
+    "search_time_per_query": 0.17033934593200684
+  },
+  {
+    "recall": 0.99949,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 400,
+    "search_time_per_query": 0.22737443447113037
+  },
+  {
+    "recall": 0.9995799999999999,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 450,
+    "search_time_per_query": 0.25899605751037597
+  },
+  {
+    "recall": 0.9996700000000001,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 500,
+    "search_time_per_query": 0.2885706901550293
+  },
+  {
+    "recall": 0.99978,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 550,
+    "search_time_per_query": 0.29029762744903564
+  },
+  {
+    "recall": 0.99986,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 600,
+    "search_time_per_query": 0.30169429779052737
+  },
+  {
+    "recall": 0.99986,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 650,
+    "search_time_per_query": 0.33102526664733883
+  },
+  {
+    "recall": 0.9999,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 700,
+    "search_time_per_query": 0.3614276170730591
+  },
+  {
+    "recall": 0.9998900000000001,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 750,
+    "search_time_per_query": 0.37409846782684325
+  },
+  {
+    "recall": 0.9999100000000001,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 800,
+    "search_time_per_query": 0.4168267250061035
+  },
+  {
+    "recall": 0.99992,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 850,
+    "search_time_per_query": 0.4584063053131104
+  },
+  {
+    "recall": 0.99993,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 900,
+    "search_time_per_query": 0.448591160774231
+  },
+  {
+    "recall": 0.9999399999999999,
+    "M": 40,
+    "efConstruction": 100,
+    "efSearch": 950,
+    "search_time_per_query": 0.5033091306686401
+  }
+]

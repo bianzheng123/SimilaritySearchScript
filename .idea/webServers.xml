@@ -2,8 +2,16 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="27e5ec66-24dc-4deb-89f6-ad9ce54dbb07" name="dbgroup" url="http://10.20.123.55">
+      <webServer id="27e5ec66-24dc-4deb-89f6-ad9ce54dbb07" name="dbgroup_jump" url="http://10.20.123.55">
         <fileTransfer host="10.20.123.55" port="22" rootFolder="/home/bz" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="92a08768-4f2b-415c-9bf2-72456a2f3ccf" name="dbgroup06" url="http://10.20.91.177">
+        <fileTransfer host="10.20.91.177" port="22" privateKey="C:\Users\BianZheng\.ssh\id_rsa" rootFolder="/home/bz" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

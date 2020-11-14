@@ -1,0 +1,86 @@
+[
+  {
+    "n_bins": 1,
+    "recall": 0.12399999999999999,
+    "n_candidates_avg": 635.19,
+    "n_candidates_95": 642.0
+  },
+  {
+    "n_bins": 2,
+    "recall": 0.2280000000000001,
+    "n_candidates_avg": 1264.83,
+    "n_candidates_95": 1284.0
+  },
+  {
+    "n_bins": 3,
+    "recall": 0.303,
+    "n_candidates_avg": 1894.55,
+    "n_candidates_95": 1926.0
+  },
+  {
+    "n_bins": 4,
+    "recall": 0.40399999999999997,
+    "n_candidates_avg": 2524.98,
+    "n_candidates_95": 2568.0
+  },
+  {
+    "n_bins": 5,
+    "recall": 0.4689999999999999,
+    "n_candidates_avg": 3153.2,
+    "n_candidates_95": 3210.0
+  },
+  {
+    "n_bins": 6,
+    "recall": 0.5479999999999999,
+    "n_candidates_avg": 3784.44,
+    "n_candidates_95": 3852.0
+  },
+  {
+    "n_bins": 7,
+    "recall": 0.6099999999999999,
+    "n_candidates_avg": 4413.79,
+    "n_candidates_95": 4494.0
+  },
+  {
+    "n_bins": 8,
+    "recall": 0.686,
+    "n_candidates_avg": 5045.59,
+    "n_candidates_95": 5128.0
+  },
+  {
+    "n_bins": 9,
+    "recall": 0.7289999999999998,
+    "n_candidates_avg": 5662.41,
+    "n_candidates_95": 5752.0
+  },
+  {
+    "n_bins": 10,
+    "recall": 0.7760000000000001,
+    "n_candidates_avg": 6287.99,
+    "n_candidates_95": 6386.0
+  },
+  {
+    "n_bins": 11,
+    "recall": 0.8420000000000002,
+    "n_candidates_avg": 6911.58,
+    "n_candidates_95": 7017.0
+  },
+  {
+    "n_bins": 12,
+    "recall": 0.8910000000000002,
+    "n_candidates_avg": 7531.5,
+    "n_candidates_95": 7633.0
+  },
+  {
+    "n_bins": 13,
+    "recall": 0.9150000000000003,
+    "n_candidates_avg": 8160.94,
+    "n_candidates_95": 8275.0
+  },
+  {
+    "n_bins": 14,
+    "recall": 0.9460000000000002,
+    "n_candidates_avg": 8772.24,
+    "n_candidates_95": 8870.0
+  }
+]

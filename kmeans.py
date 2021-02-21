@@ -14,27 +14,31 @@ km = KMeans(n_clusters=k, init='k-means++', max_iter=30)
 km.fit(X)
 
 # 获取簇心
-# centroids = km.cluster_centers_
+centroids = km.cluster_centers_
 # print(centroids)
+para = km.get_params()
+print(para)
 # print(km.score(X))
 # 获取归集后的样本所属簇对应值
 
-# labels = km.labels_
-# print(labels.shape)
+labels = km.labels_
+print(labels.shape)
 
 query = np.array([[1, 2], [3, 4]])
-print(query)
+# print(query)
 y_kmean = km.predict(query)
-print(y_kmean)
+# print(y_kmean)
 query = km.transform(query)
-print(query)
-print(np.argsort(query))
+# print(query)
+# print(np.argsort(query))
 
 # 呈现未归集前的数据
-# plt.scatter(X[:, 0], X[:, 1], s=50)
-# plt.yticks(())
-# plt.show()
+plt.scatter(X[:, 0], X[:, 1], s=50)
+plt.xticks(())
+plt.yticks(())
+plt.show()
 
-# plt.scatter(X[:, 0], X[:, 1], c=y_kmean, s=50, cmap='viridis')
-# plt.scatter(centroids[:, 0], centroids[:, 1], c='black', s=100, alpha=0.5)
-# plt.show()
+# s 代表大小，c代表颜色(可以是一维数组表示标签也可以是RGB)
+plt.scatter(X[:, 0], X[:, 1], c=Y, s=50, cmap='Accent')
+plt.scatter(centroids[:, 0], centroids[:, 1], c='black', s=100, alpha=0.5)
+plt.show()

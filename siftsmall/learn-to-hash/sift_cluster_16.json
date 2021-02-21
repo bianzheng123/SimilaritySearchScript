@@ -1,0 +1,86 @@
+[
+  {
+    "n_bins": 1,
+    "acc": 0.718,
+    "probe": 630.0,
+    "probe95": 641.0
+  },
+  {
+    "n_bins": 2,
+    "acc": 0.887,
+    "probe": 1251.0,
+    "probe95": 1279.0
+  },
+  {
+    "n_bins": 3,
+    "acc": 0.946,
+    "probe": 1879.0,
+    "probe95": 1913.0
+  },
+  {
+    "n_bins": 4,
+    "acc": 0.982,
+    "probe": 2512.0,
+    "probe95": 2550.0
+  },
+  {
+    "n_bins": 5,
+    "acc": 0.0,
+    "probe": 0.0,
+    "probe95": 0.0
+  },
+  {
+    "n_bins": 6,
+    "acc": 0.0,
+    "probe": 0.0,
+    "probe95": 0.0
+  },
+  {
+    "n_bins": 7,
+    "acc": 0.0,
+    "probe": 0.0,
+    "probe95": 0.0
+  },
+  {
+    "n_bins": 8,
+    "acc": 0.0,
+    "probe": 0.0,
+    "probe95": 0.0
+  },
+  {
+    "n_bins": 9,
+    "acc": 0.0,
+    "probe": 0.0,
+    "probe95": 0.0
+  },
+  {
+    "n_bins": 10,
+    "acc": 0.0,
+    "probe": 0.0,
+    "probe95": 0.0
+  },
+  {
+    "n_bins": 11,
+    "acc": 0.0,
+    "probe": 0.0,
+    "probe95": 0.0
+  },
+  {
+    "n_bins": 12,
+    "acc": 0.0,
+    "probe": 0.0,
+    "probe95": 0.0
+  },
+  {
+    "n_bins": 13,
+    "acc": 0.0,
+    "probe": 0.0,
+    "probe95": 0.0
+  },
+  {
+    "n_bins": 14,
+    "acc": 0.0,
+    "probe": 0.0,
+    "probe95": 0.0
+  }
+]

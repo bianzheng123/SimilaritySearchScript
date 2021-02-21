@@ -1,0 +1,1 @@
+{"specific_fname": "", "n_cluster": 16, "n_instance": 2, "dataset_partition": {"type": "e2lsh", "program_train_para_dir": "/home/zhengbian/NN_as_Classification/data/train_para/imagenet_256_count_1_e2lsh_", "n_cluster": 16, "n_instance": 2}}

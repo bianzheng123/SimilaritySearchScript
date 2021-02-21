@@ -1,22 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="dbgroup06" autoUploadExternalChanges="true" showNewOnSourceInSync="false">
+  <component name="PublishConfigData" serverName="zhengbian@10.20.96.60:22222" showNewOnSourceInSync="false">
     <serverData>
-      <paths name="dbgroup06">
+      <paths name="dbg03">
         <serverdata>
           <mappings>
-            <mapping deploy="/R-Classifier-Learn-Hash" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/NN_as_Classification" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="dbg19GPU">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/NN_as_Classification" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
       <paths name="dbgroup_jump">
         <serverdata>
           <mappings>
-            <mapping deploy="/self_code" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/NN_as_Classification" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="zhengbian@10.20.96.60:22222">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/NN_as_Classification" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
-    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

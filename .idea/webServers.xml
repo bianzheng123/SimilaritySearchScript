@@ -10,12 +10,20 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="92a08768-4f2b-415c-9bf2-72456a2f3ccf" name="dbgroup06" url="http://10.20.91.177">
-        <fileTransfer host="10.20.91.177" port="22" privateKey="C:\Users\BianZheng\.ssh\id_rsa" rootFolder="/home/bz" accessType="SFTP" keyPair="true">
+      <webServer id="9b2c59ac-0ee0-4fb1-9357-d3c9589c98ca" name="dbg03" url="http://10.20.96.60">
+        <fileTransfer host="10.20.96.60" port="22222" privateKey="C:\Users\BianZheng\.ssh\dbg03\id_rsa" rootFolder="/home/zhengbian" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
+          <option name="port" value="22222" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="76838aba-ddf1-4df8-adf7-187493e38860" name="dbg19GPU" url="http://10.20.95.197">
+        <fileTransfer host="10.20.95.197" port="38438" privateKey="C:\Users\BianZheng\.ssh\dbg03\id_rsa" rootFolder="/home/zhengbian" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="38438" />
         </fileTransfer>
       </webServer>
     </option>

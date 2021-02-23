@@ -1,1 +1,0 @@
-{"specific_fname": "increase_weight_128", "n_cluster": 16, "n_instance": 8, "dataset_partition": {"type": "knn", "build_graph": {"increase_weight": 128}, "graph_partition": "parhip"}, "prepare_train_sample": {"type": "neighbor"}, "train_model": {"type": "neural_network", "n_epochs": 12}}

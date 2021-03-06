@@ -24,7 +24,7 @@ method2category = {
 }
 
 # deep gist glove imagenet sift
-dataset_name = 'sift'
+dataset_name = 'glove'
 n_cluster = 256
 
 method = 'knn_random_projection'

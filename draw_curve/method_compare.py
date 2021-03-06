@@ -1,7 +1,5 @@
 import json
 import matplotlib.pyplot as plt
-import matplotlib
-import numpy as np
 
 
 def get_cluster_nn_classification(json_dir):
@@ -21,19 +19,23 @@ method2category = {
     'opq': 'baseline',
     'pq': 'baseline',
     'knn': 'nn',
-    'partition_knn': 'nn',
+    'knn_lsh': 'nn',
+    'knn_random_projection': 'nn',
+    'knn_kmeans': 'nn',
+    'knn_kmeans_multiple': 'nn',
     'e2lsh': 'count'
 }
 
 # deep gist glove imagenet sift
-dataset_name = 'sift'
-n_cluster = 256
+dataset_name = 'siftsmall'
+n_cluster = 16
 
 method_l = [
-    'pq', 'knn', 'partition_knn'
+    'knn', 'pq', 'knn_random_projection', 'knn_lsh', 'knn_kmeans', 'knn_kmeans_multiple'
+    # 'pq', 'knn_random_projection', 'knn_lsh', 'knn_kmeans'
 ]
 n_classifier_l = [
-    1, 4
+    4
 ]
 dir_arr = []
 for n_classifier in n_classifier_l:
@@ -60,7 +62,10 @@ for i in range(len(dir_arr)):
 cnt_idx = 0
 marker_l = ['H', 'D', 'P', '>', '*', 'X', 's', '<', '^', 'p', 'v']
 color_l = ['#b9529f', '#3953a4', '#ed2024', '#098140', '#231f20', '#7f8133', '#0084ff']
+
 linestyle_l = ['dotted', 'solid']
+if len(n_classifier_l) == 1:
+    linestyle_l = ['solid']
 for i, n_classifier in enumerate(n_classifier_l):
     for j, method in enumerate(method_l):
         label = '%d %s' % (n_classifier, method)

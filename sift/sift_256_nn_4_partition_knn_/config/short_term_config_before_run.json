@@ -1,1 +1,0 @@
-{"specific_fname": "", "n_cluster": 256, "n_instance": 4, "dataset_partition": {"type": "partition_knn", "build_graph": {}, "graph_partition": "parhip"}, "prepare_train_sample": {"type": "neighbor"}, "train_model": {"type": "neural_network"}}

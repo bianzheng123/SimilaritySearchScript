@@ -38,7 +38,7 @@ other_fname = '../sift/learn-to-hash/'
 dir_learn_on_graph = other_fname + 'sift_cluster_256.json'
 
 # deep gist glove imagenet sift normalsmall
-dataset_name = 'normalsmall'
+dataset_name = 'deep'
 n_cluster = 4
 
 nn_classification_fname = '../%s' % dataset_name

@@ -23,16 +23,18 @@ method2category = {
     'knn': 'nn',
     'partition_knn': 'nn',
     'e2lsh': 'count',
+    'random_projection': 'nn',
+    'knn_random_projection': 'nn',
     'hnsw': 'nn'
 }
 
 # deep gist glove imagenet sift
-dataset_name = 'siftsmall'
-n_cluster = 16
+dataset_name = 'sift'
+n_cluster = 256
 
-method = 'hnsw'
+method = 'knn_random_projection'
 n_classifier_l = [
-    1, 8
+    1, 4
 ]
 dir_arr = []
 for n_classifier in n_classifier_l:

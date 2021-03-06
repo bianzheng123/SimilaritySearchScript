@@ -127,16 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-/deep
-/deepsmall
-data
-gist
-glove
-imagenet
-imagenetsmall
-increase_weight
-normalsmall
-sift
-siftsmall
-uniref
-unirefsmall
+

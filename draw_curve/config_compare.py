@@ -19,18 +19,18 @@ method2category = {
     'opq': 'baseline',
     'pq': 'baseline',
     'knn': 'nn',
-    'partition_knn': 'nn',
+    'knn_random_projection': 'nn',
     'e2lsh': 'count'
 }
 
 # deep gist glove imagenet sift
-dataset_name = 'deepsmall'
-n_cluster = 16
+dataset_name = 'sift'
+n_cluster = 256
 
-method = 'partition_knn'
+method = 'knn_random_projection'
 n_classifier = 4
-specific_name = 'partition_depth'
-specific_val_l = [1, 2, 3, 4]
+specific_name = 'model'
+specific_val_l = ['one_block_512_dim', 'one_block_2048_dim', 'res_net', 'two_block_512_dim', 'two_block_1024_dim']
 
 dir_arr = []
 for val in specific_val_l:
@@ -38,7 +38,7 @@ for val in specific_val_l:
     fname = '%s_%d_%s_%d_%s' % (dataset_name, n_cluster, cate, n_classifier, method)
     if cate == 'baseline':
         raise Exception('not support the category')
-    fname = '%s_%s_%d' % (fname, specific_name, val)
+    fname = '{}_{}_{}'.format(fname, specific_name, val)
     print(fname)
     dir_arr.append("../%s/%s/result.json" % (dataset_name, fname))
 
@@ -57,7 +57,7 @@ for i in range(len(dir_arr)):
 marker_l = ['H', 'D', 'P', '>', '*', 'X', 's', '<', '^', 'p', 'v']
 color_l = ['#b9529f', '#3953a4', '#ed2024', '#098140', '#231f20', '#7f8133', '#0084ff']
 for i, val in enumerate(specific_val_l):
-    label = '%d' % val
+    label = val
     plt.plot(cls_arr[i][0], cls_arr[i][1], marker=marker_l[i], linestyle='solid',
              color=color_l[i],
              label=label)
@@ -70,7 +70,7 @@ plt.xscale('log')
 # 使用ｌｅｇｅｎｄ绘制多条曲线
 # plt.title('graph kmeans vs knn')
 title_ds_name = '%s %s' % (dataset_name, '10K' if 'small' in dataset_name else '1M')
-plt.legend(loc='upper left', title="%s, top-10, %d cluster, parameter: %s" % (title_ds_name, n_cluster, specific_name))
+plt.legend(loc='upper left', title="%s, top-10, %d cluster, %d classifier, parameter: %s" % (title_ds_name, n_cluster, n_classifier, specific_name))
 
 plt.xlabel("the number of candidates")
 plt.ylabel("Recall")

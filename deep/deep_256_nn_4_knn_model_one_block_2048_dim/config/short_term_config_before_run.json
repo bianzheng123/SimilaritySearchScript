@@ -1,0 +1,1 @@
+{"specific_fname": "model_one_block_2048_dim", "n_cluster": 256, "n_instance": 4, "dataset_partition": {"type": "knn", "build_graph": {}, "graph_partition": "parhip"}, "prepare_train_sample": {"type": "neighbor"}, "train_model": {"type": "neural_network", "model_name": "one_block_2048_dim"}}

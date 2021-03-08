@@ -23,16 +23,17 @@ method2category = {
     'knn_random_projection': 'nn',
     'knn_kmeans': 'nn',
     'knn_kmeans_multiple': 'nn',
-    'e2lsh': 'count'
+    'e2lsh': 'count',
+    'kmeans_multiple': 'nn',
+    'kmeans_independent': 'nn'
 }
 
 # deep gist glove imagenet sift
-dataset_name = 'siftsmall'
-n_cluster = 16
+dataset_name = 'gist'
+n_cluster = 256
 
 method_l = [
-    'knn', 'pq', 'knn_random_projection', 'knn_lsh', 'knn_kmeans', 'knn_kmeans_multiple'
-    # 'pq', 'knn_random_projection', 'knn_lsh', 'knn_kmeans'
+    'pq', 'knn', 'kmeans_multiple', 'knn_random_projection'
 ]
 n_classifier_l = [
     4

@@ -20,17 +20,18 @@ method2category = {
     'pq': 'baseline',
     'knn': 'nn',
     'knn_random_projection': 'nn',
-    'e2lsh': 'count'
+    'e2lsh': 'count',
+    'knn_kmeans_multiple': 'nn'
 }
 
 # deep gist glove imagenet sift
-dataset_name = 'glove'
+dataset_name = 'sift'
 n_cluster = 256
 
-method = 'knn_random_projection'
+method = 'knn_kmeans_multiple'
 n_classifier = 4
-specific_name = 'model'
-specific_val_l = ['one_block_512_dim', 'one_block_2048_dim', 'res_net', 'two_block_512_dim', 'two_block_1024_dim']
+specific_name = 'partition_iter'
+specific_val_l = [1, 2, 3]
 
 dir_arr = []
 for val in specific_val_l:
@@ -70,7 +71,7 @@ plt.xscale('log')
 # 使用ｌｅｇｅｎｄ绘制多条曲线
 # plt.title('graph kmeans vs knn')
 title_ds_name = '%s %s' % (dataset_name, '10K' if 'small' in dataset_name else '1M')
-plt.legend(loc='upper left', title="%s, top-10, %d cluster, %d classifier, parameter: %s" % (title_ds_name, n_cluster, n_classifier, specific_name))
+plt.legend(loc='upper left', title="%s, top-10, %d cluster, %d classifier, parameter: %s, method: %s" % (title_ds_name, n_cluster, n_classifier, specific_name, method))
 
 plt.xlabel("the number of candidates")
 plt.ylabel("Recall")

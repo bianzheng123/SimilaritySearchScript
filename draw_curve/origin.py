@@ -20,7 +20,7 @@ dataset_name = 'sift'
 
 nn_classification_fname = '../%s' % dataset_name
 dir_arr = [
-    '4_nn_8_knn_random_projection_', '16_nn_4_knn_random_projection_', '256_nn_2_knn_random_projection_'
+    '256_baseline_1_pq', '256_nn_1_knn_', '256_nn_1_knn_graph_partition_kaffpa', '256_nn_1_knn_graph_partition_parhip'
 ]
 for i in range(len(dir_arr)):
     dir_arr[i] = "%s/%s_%s/result.json" % (nn_classification_fname, dataset_name, dir_arr[i])
@@ -40,15 +40,15 @@ plt.figure(num=3, figsize=(8, 5))
 # color_l = ['#b9529f', '#3953a4', '#ed2024', '#098140', '#231f20', '#7f8133', '#0084ff']
 
 line2_1, = plt.plot(cls_arr[0][0], cls_arr[0][1], marker='H', linestyle='solid', color='#b9529f',
-                    label='n_cluster 4 n_classifier 8')
+                    label='1 pq')
 line2_2, = plt.plot(cls_arr[1][0], cls_arr[1][1], marker='D', linestyle='solid', color='#3953a4',
-                    label='n_cluster 16 n_classifier 4')
+                    label='1 knn parhip lr 0.004 two_block_512_dim')
 line2_3, = plt.plot(cls_arr[2][0], cls_arr[2][1], marker='P', linestyle='solid', color='#ed2024',
-                    label='n_cluster 256 n_classifier 2')
-# line2_5, = plt.plot(cls_arr[3][0], cls_arr[3][1], marker='>', linestyle='solid', color='#098140',
-#                     label='4 knn_lsh')
+                    label='1 knn kaffpa lr 0.008 one_block_2048_dim')
+line2_5, = plt.plot(cls_arr[3][0], cls_arr[3][1], marker='>', linestyle='solid', color='#098140',
+                    label='1 knn parhip lr 0.008 one_block_2048_dim')
 # line2_6, = plt.plot(cls_arr[4][0], cls_arr[4][1], marker='*', linestyle='solid', color='#231f20',
-#                     label='4 knn_random_projection')
+#                     label='4 pq')
 # line2_7, = plt.plot(cls_arr[5][0], cls_arr[5][1], marker='P', linestyle='solid', color='#ed2024',
 #                     label='4 partition knn')
 
@@ -59,7 +59,7 @@ plt.xscale('log')
 
 # 使用ｌｅｇｅｎｄ绘制多条曲线
 # plt.title('graph kmeans vs knn')
-plt.legend(loc='upper left', title="%s 1M, top-10, 4 classifier" % dataset_name)
+plt.legend(loc='upper left', title="%s 1M, top-10" % dataset_name)
 
 plt.xlabel("the number of candidates")
 plt.ylabel("Recall")

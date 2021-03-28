@@ -26,6 +26,14 @@
           <option name="port" value="38438" />
         </fileTransfer>
       </webServer>
+      <webServer id="5923dea0-6411-421f-a4f0-b720f3bfb2ef" name="hp" url="http://129.204.232.231">
+        <fileTransfer host="129.204.232.231" port="7001" rootFolder="/home/bianzheng" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="7001" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

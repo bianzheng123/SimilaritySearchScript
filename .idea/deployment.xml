@@ -23,6 +23,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="hp">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/quantitative-transaction" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="zhengbian@10.20.96.60:22222">
         <serverdata>
           <mappings>

@@ -29,11 +29,11 @@ method2category = {
 }
 
 # deep gist glove imagenet sift
-dataset_name = 'gist'
+dataset_name = 'deep'
 n_cluster = 256
 
 method_l = [
-    'pq', 'knn', 'kmeans_multiple', 'knn_random_projection'
+    'pq', 'knn', 'kmeans_multiple'
 ]
 n_classifier_l = [
     4

@@ -1,0 +1,1 @@
+{"specific_fname": "partition_type_kaffpa", "n_cluster": 256, "n_instance": 4, "dataset_partition": {"type": "knn", "build_graph": {}, "graph_partition": {"type": "kaffpa"}}, "prepare_train_sample": {"type": "neighbor"}, "train_model": {"type": "neural_network"}}

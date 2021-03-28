@@ -21,17 +21,18 @@ method2category = {
     'knn': 'nn',
     'knn_random_projection': 'nn',
     'e2lsh': 'count',
-    'knn_kmeans_multiple': 'nn'
+    'knn_kmeans_multiple': 'nn',
+    'kmeans_multiple': 'nn'
 }
 
 # deep gist glove imagenet sift
-dataset_name = 'sift'
+dataset_name = 'deep'
 n_cluster = 256
 
-method = 'knn_kmeans_multiple'
+method = 'kmeans_multiple'
 n_classifier = 4
-specific_name = 'partition_iter'
-specific_val_l = [1, 2, 3]
+specific_name = 'model'
+specific_val_l = ['one_block_2048_dim', 'one_block_8192_dim', 'two_block_2048_dim']
 
 dir_arr = []
 for val in specific_val_l:
